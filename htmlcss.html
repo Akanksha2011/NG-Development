@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Precedence Example</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS -->
+    <style>
+        /* Internal CSS */
+        h1 {
+            color: green;
+            background-color: lightgray;
+        }
+
+        p {
+            color: blue;
+            background-color: lightyellow;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: red; background-color: yellow;">This is an H1 Header</h1> <!-- Inline CSS -->
+    <p style="color: purple; background-color: pink;">This is a paragraph.</p> <!-- Inline CSS -->
+</body>
+</html>
