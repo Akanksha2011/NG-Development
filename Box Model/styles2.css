@@ -1,0 +1,39 @@
+/* External CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.box {
+    background-color: #fff;
+    padding: 20px; /* Padding around the content */
+    border: 5px solid #4CAF50; /* Border around the padding */
+    margin: 20px; /* Margin outside the border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for a lifted effect */
+}
+
+.box h1 {
+    margin-top: 0; /* Remove margin from the top of the header */
+}
+
+.box p {
+    margin-bottom: 0; /* Remove margin from the bottom of the paragraph */
+}
+
+.box-example {
+    background-color: #e3f2fd; /* Light blue background */
+    padding: 30px; /* Increased padding for demonstration */
+    border: 10px solid #2196F3; /* Blue border */
+    margin: 30px; /* Increased margin for spacing */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+}
+
+.box-example h2 {
+    margin-top: 0; /* Remove margin from the top of the header */
+}
+
+.box-example p {
+    margin-bottom: 0; /* Remove margin from the bottom of the paragraph */
+}
